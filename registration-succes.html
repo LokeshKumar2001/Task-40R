@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    User Logged on Successfully
+    <center><img src="image.png" alt="no image" height="125" /></center>
+
+    <center>
+      <h3>Applicant Details</h3>
+    </center>
+    <form action="" autocomplete="off">
+      <label for="name">Name * </label>
+      <input type="text" id="name" autofocus required maxlength="20" />
+
+      <label for="fgname">Father's/Guardian's Name * </label>
+      <input type="text" id="fgname" autofocus required maxlength="20" /><br />
+      <p>(maximum characters 20)</p>
+      <br />
+
+      <label for="dob">Date of birth * </label>
+      <input type="date" name="dob" />
+
+      <label for="adhar">Aadhar No:</label>
+      <input type="tel" name="adhar" required /><br />
+      <pre></pre>
+      <label for="email">Email </label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter email Address"
+        required
+      />
+
+      <label for="number">Mobile Number</label>
+      <input
+        type="tel"
+        id="number"
+        placeholder="Enter Mobile Number"
+        required
+      /><br />
+      <pre></pre>
+      <label for="radio">Gender * </label>
+      <input type="radio" value="Female" name="radio" />Female
+      <input type="radio" value="Male" name="radio" />Male
+      <pre></pre>
+      <label for="photo">Photo * </label>
+      <input type="file" id="photo" required /><br />
+      <input type="submit" value="Save" />
+    </form>
+    <h3>Resedential Address Details</h3>
+    <label for="address">Applicant's Address * </label>
+    <textarea name="address" cols="50" rows="5"></textarea>
+    <label for="dist">District * </label>
+    <select name="dist">
+      <option>Siricila</option>
+      <option>Sangareddy</option>
+      <option>Rangareddy</option>
+      <option>Medchal</option>
+    </select>
+    <center>
+      <button>Submit</button>
+    </center>
+  </body>
+</html>
