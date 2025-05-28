@@ -1,0 +1,83 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+    background-color: grey;
+    border-radius: 5px;
+    
+}
+.nav1 {
+    
+}
+.nav2 {
+   
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+    
+    padding:10px;
+}
+.nav2 a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    
+}
+.pf{
+    text-align: center; 
+    background-color: black;
+    
+    font-family: sans-serif;
+    color: white;
+}
+.pf a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    border-radius: 50%;
+}
+.inp{
+    width: 1000px;
+}
+label {
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.form-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.parent{
+    width: 100%;
+    padding-top: 20px;
+}
+.child1{
+    display: inline-block;
+    padding-left: 20px;
+}
+ .c1{
+    display: inline-block;
+    text-align: center;
+    font-size: small;
+    padding-left: 18px;
+}
+.div2 .div3{
+    width: 100%;
+    z-index: 1;
+}
