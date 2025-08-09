@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div-contain {
+        display: none;
+        position: absolute;
+        color: white;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        background-color: black;
+        border-radius: 5px;
+
+    }
+    .div-contain a{
+        display: block;
+        color: black;
+        text-decoration: none;
+        
+    }
+    .item:hover .div-contain{
+        display: block;
+        background-color: black;
+    }
+    .div-contain a:hover{
+        background-color: white;
+        
+        
+    }
+    .item {
+        position: relative;
+        padding: 10px;
+        color: rgb(128, 128, 128);
+    }
+    .item a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .item a:hover{
+        text-decoration: none;
+        color: black;
+        
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li class="item">
+                <a href="#">HOME</a>
+                <div class="div-contain">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">HOME</a>
+                <div class="div-contain">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#">HOME</a>
+                <div class="div-contain">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
